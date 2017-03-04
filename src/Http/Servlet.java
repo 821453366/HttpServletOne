@@ -17,5 +17,6 @@ public class Servlet extends HttpServlet {
            // response.getWriter().println("123456");
         response.getOutputStream().write("大家好，我是中文".getBytes("utf-8"));
             System.out.print("打印");
+
     }
 }
