@@ -16,7 +16,7 @@ public class Servlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
            // response.getWriter().println("123456");
         response.getOutputStream().write("大家好，我是中文".getBytes("utf-8"));
-            System.out.print("打印");
+            System.out.print("打印出来");
 
     }
 }
